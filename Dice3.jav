@@ -26,6 +26,7 @@ public class Dice3 {
 	     k = k + 1;
 	     bars.updateUI();    // tells the bar chart to update its picture
 	     sleep(5);
+      
 
 	  }
 
