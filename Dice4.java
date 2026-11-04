@@ -46,7 +46,13 @@ public class Dice4 {
     
     public void runTest12In24Rolls(int howMany)
     {
-          //your code here    
+        int counter = 0;
+        while(counter < howMany)
+        {
+                if(takeATurnA12In24Rolls())
+                    counter++;
+                counter++;
+        }
     }
     
     
